@@ -1,13 +1,13 @@
-package com.example.androidautomate.receiver
+package com.citrusd365.autopulse.receiver
 
 import android.bluetooth.BluetoothDevice
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.os.Build
-import com.example.androidautomate.data.RoutineRepository
-import com.example.androidautomate.engine.RoutineEngine
-import com.example.androidautomate.service.AutomationForegroundService
+import com.citrusd365.autopulse.data.RoutineRepository
+import com.citrusd365.autopulse.engine.RoutineEngine
+import com.citrusd365.autopulse.service.AutomationForegroundService
 
 class SystemEventReceiver : BroadcastReceiver() {
 

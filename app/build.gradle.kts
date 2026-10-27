@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.androidautomate"
+    namespace = "com.citrusd365.autopulse"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.androidautomate"
+        applicationId = "com.citrusd365.autopulse"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
@@ -102,7 +102,7 @@ tasks.configureEach {
                     val adbExe = File(sdkDir, "platform-tools/adb.exe")
                     if (adbExe.exists()) {
                         val adbPath = adbExe.absolutePath
-                        val pkg = "com.example.androidautomate"
+                        val pkg = "com.citrusd365.autopulse"
                         val svc = "$pkg/$pkg.service.AutomationAccessibilityService"
                         val psScript = """
                             for (${'$'}i = 0; ${'$'}i -lt 5; ${'$'}i++) {

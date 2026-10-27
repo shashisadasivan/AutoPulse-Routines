@@ -1,4 +1,4 @@
-package com.example.androidautomate.service
+package com.citrusd365.autopulse.service
 
 import android.Manifest
 import android.accessibilityservice.AccessibilityService
@@ -15,9 +15,9 @@ import android.provider.Settings
 import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityManager
 import android.view.accessibility.AccessibilityNodeInfo
-import com.example.androidautomate.data.RoutineRepository
-import com.example.androidautomate.engine.HotspotController
-import com.example.androidautomate.model.LogSeverity
+import com.citrusd365.autopulse.data.RoutineRepository
+import com.citrusd365.autopulse.engine.HotspotController
+import com.citrusd365.autopulse.model.LogSeverity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

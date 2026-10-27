@@ -1,4 +1,4 @@
-package com.example.androidautomate.model
+package com.citrusd365.autopulse.model
 
 import kotlinx.serialization.Serializable
 import java.util.UUID

@@ -1,4 +1,4 @@
-package com.example.androidautomate.ui.theme
+package com.citrusd365.autopulse.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

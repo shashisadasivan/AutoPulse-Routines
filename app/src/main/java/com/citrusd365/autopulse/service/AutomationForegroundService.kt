@@ -1,4 +1,4 @@
-package com.example.androidautomate.service
+package com.citrusd365.autopulse.service
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -21,11 +21,11 @@ import android.os.Build
 import android.os.IBinder
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
-import com.example.androidautomate.MainActivity
-import com.example.androidautomate.R
-import com.example.androidautomate.data.RoutineRepository
-import com.example.androidautomate.engine.BluetoothHelper
-import com.example.androidautomate.engine.RoutineEngine
+import com.citrusd365.autopulse.MainActivity
+import com.citrusd365.autopulse.R
+import com.citrusd365.autopulse.data.RoutineRepository
+import com.citrusd365.autopulse.engine.BluetoothHelper
+import com.citrusd365.autopulse.engine.RoutineEngine
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -259,7 +259,7 @@ class AutomationForegroundService : Service() {
     companion object {
         private const val CHANNEL_ID = "autopulse_monitor_channel"
         private const val NOTIFICATION_ID = 1001
-        const val ACTION_STOP_SERVICE = "com.example.androidautomate.STOP_SERVICE"
+        const val ACTION_STOP_SERVICE = "com.citrusd365.autopulse.STOP_SERVICE"
 
         @Volatile
         var isRunning: Boolean = false

@@ -29,14 +29,14 @@ Pre-configured out of the box for automatic in-car connectivity:
 
 ## Project Structure
 
-- [`RoutineModels.kt`](app/src/main/java/com/example/androidautomate/model/RoutineModels.kt) — Serializable domain models for `Routine`, `TriggerType`, `ActionType`, `RoutineAction`, `HotspotMethod`, and `ExecutionLogEntry`.
-- [`RoutineRepository.kt`](app/src/main/java/com/example/androidautomate/data/RoutineRepository.kt) — Persistent JSON storage & reactive `StateFlow`s with default **Car Bluetooth → Mobile Hotspot** routine.
-- [`AutomationAccessibilityService.kt`](app/src/main/java/com/example/androidautomate/service/AutomationAccessibilityService.kt) — Stock-Android unrooted Hotspot toggler via Quick Settings tile & Tethering Settings inspection.
-- [`HotspotController.kt`](app/src/main/java/com/example/androidautomate/engine/HotspotController.kt) — Multi-backend Hotspot state detector (`WifiManager` + SoftAP interfaces) and toggler (`AUTO`, `ACCESSIBILITY_QUICK_TILE`, `ACCESSIBILITY_SETTINGS_SCREEN`, `ROOT_SHELL`).
-- [`BluetoothHelper.kt`](app/src/main/java/com/example/androidautomate/engine/BluetoothHelper.kt) — Safe Android 12+ `BLUETOOTH_CONNECT` paired-device query, Car/Audio class detection, and live connection state check.
-- [`RoutineEngine.kt`](app/src/main/java/com/example/androidautomate/engine/RoutineEngine.kt) — Event evaluator, disconnect grace-period timer manager, and action executor.
-- [`AutomationForegroundService.kt`](app/src/main/java/com/example/androidautomate/service/AutomationForegroundService.kt) & [`SystemEventReceiver.kt`](app/src/main/java/com/example/androidautomate/receiver/SystemEventReceiver.kt) — Persistent background Bluetooth (`ACL_CONNECTED`, `ACL_DISCONNECTED`, `A2DP`, `HEADSET`), Charging, Wi-Fi, and Battery monitor.
-- [`MainScreen.kt`](app/src/main/java/com/example/androidautomate/ui/MainScreen.kt) & [`RoutineEditorDialog.kt`](app/src/main/java/com/example/androidautomate/ui/RoutineEditorDialog.kt) — Material 3 Compose UI with Readiness Checklist, Paired Car Bluetooth Picker, Live Hotspot Tester, and Activity Log.
+- [`RoutineModels.kt`](app/src/main/java/com/citrusd365/autopulse/model/RoutineModels.kt) — Serializable domain models for `Routine`, `TriggerType`, `ActionType`, `RoutineAction`, `HotspotMethod`, and `ExecutionLogEntry`.
+- [`RoutineRepository.kt`](app/src/main/java/com/citrusd365/autopulse/data/RoutineRepository.kt) — Persistent JSON storage & reactive `StateFlow`s with default **Car Bluetooth → Mobile Hotspot** routine.
+- [`AutomationAccessibilityService.kt`](app/src/main/java/com/citrusd365/autopulse/service/AutomationAccessibilityService.kt) — Stock-Android unrooted Hotspot toggler via Quick Settings tile & Tethering Settings inspection.
+- [`HotspotController.kt`](app/src/main/java/com/citrusd365/autopulse/engine/HotspotController.kt) — Multi-backend Hotspot state detector (`WifiManager` + SoftAP interfaces) and toggler (`AUTO`, `ACCESSIBILITY_QUICK_TILE`, `ACCESSIBILITY_SETTINGS_SCREEN`, `ROOT_SHELL`).
+- [`BluetoothHelper.kt`](app/src/main/java/com/citrusd365/autopulse/engine/BluetoothHelper.kt) — Safe Android 12+ `BLUETOOTH_CONNECT` paired-device query, Car/Audio class detection, and live connection state check.
+- [`RoutineEngine.kt`](app/src/main/java/com/citrusd365/autopulse/engine/RoutineEngine.kt) — Event evaluator, disconnect grace-period timer manager, and action executor.
+- [`AutomationForegroundService.kt`](app/src/main/java/com/citrusd365/autopulse/service/AutomationForegroundService.kt) & [`SystemEventReceiver.kt`](app/src/main/java/com/citrusd365/autopulse/receiver/SystemEventReceiver.kt) — Persistent background Bluetooth (`ACL_CONNECTED`, `ACL_DISCONNECTED`, `A2DP`, `HEADSET`), Charging, Wi-Fi, and Battery monitor.
+- [`MainScreen.kt`](app/src/main/java/com/citrusd365/autopulse/ui/MainScreen.kt) & [`RoutineEditorDialog.kt`](app/src/main/java/com/citrusd365/autopulse/ui/RoutineEditorDialog.kt) — Material 3 Compose UI with Readiness Checklist, Paired Car Bluetooth Picker, Live Hotspot Tester, and Activity Log.
 
 ---
 
@@ -57,7 +57,7 @@ This repository is structured to meet all [F-Droid Inclusion Policy](https://f-d
 - **Open-Source License**: Licensed under [`GPL-3.0-or-later`](LICENSE).
 - **No Proprietary Dependencies or Binary Blobs**: Built strictly with standard AndroidX/Jetpack Compose and Kotlinx libraries from Maven Central and Google Maven; Google Play `dependenciesInfo` signing blocks are explicitly disabled in [`app/build.gradle.kts`](app/build.gradle.kts).
 - **Fastlane Store Metadata**: Pre-populated in [`fastlane/metadata/android/en-US/`](fastlane/metadata/android/en-US/) (`title.txt`, `short_description.txt`, `full_description.txt`, `changelogs/1.txt`, and `images/icon.png`).
-- **F-Droid Build Recipe**: A ready-to-submit `fdroiddata` recipe is included at [`fdroid/com.example.androidautomate.yml`](fdroid/com.example.androidautomate.yml).
+- **F-Droid Build Recipe**: A ready-to-submit `fdroiddata` recipe is included at [`fdroid/com.citrusd365.autopulse.yml`](fdroid/com.citrusd365.autopulse.yml).
 
 ---
 

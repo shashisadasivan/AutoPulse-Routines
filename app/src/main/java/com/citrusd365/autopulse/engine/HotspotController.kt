@@ -1,11 +1,11 @@
-package com.example.androidautomate.engine
+package com.citrusd365.autopulse.engine
 
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.wifi.WifiManager
-import com.example.androidautomate.data.RoutineRepository
-import com.example.androidautomate.model.HotspotMethod
-import com.example.androidautomate.service.AutomationAccessibilityService
+import com.citrusd365.autopulse.data.RoutineRepository
+import com.citrusd365.autopulse.model.HotspotMethod
+import com.citrusd365.autopulse.service.AutomationAccessibilityService
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.withContext

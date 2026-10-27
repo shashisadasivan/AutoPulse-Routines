@@ -1,4 +1,4 @@
-package com.example.androidautomate.engine
+package com.citrusd365.autopulse.engine
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -10,7 +10,7 @@ import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Build
 import androidx.core.content.ContextCompat
-import com.example.androidautomate.model.PairedBluetoothDeviceInfo
+import com.citrusd365.autopulse.model.PairedBluetoothDeviceInfo
 
 object BluetoothHelper {
 

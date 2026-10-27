@@ -1,13 +1,13 @@
-package com.example.androidautomate.data
+package com.citrusd365.autopulse.data
 
 import android.content.Context
-import com.example.androidautomate.model.ActionType
-import com.example.androidautomate.model.ExecutionLogEntry
-import com.example.androidautomate.model.HotspotMethod
-import com.example.androidautomate.model.LogSeverity
-import com.example.androidautomate.model.Routine
-import com.example.androidautomate.model.RoutineAction
-import com.example.androidautomate.model.TriggerType
+import com.citrusd365.autopulse.model.ActionType
+import com.citrusd365.autopulse.model.ExecutionLogEntry
+import com.citrusd365.autopulse.model.HotspotMethod
+import com.citrusd365.autopulse.model.LogSeverity
+import com.citrusd365.autopulse.model.Routine
+import com.citrusd365.autopulse.model.RoutineAction
+import com.citrusd365.autopulse.model.TriggerType
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

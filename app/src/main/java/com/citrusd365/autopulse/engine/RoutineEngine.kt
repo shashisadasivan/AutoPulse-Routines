@@ -1,4 +1,4 @@
-package com.example.androidautomate.engine
+package com.citrusd365.autopulse.engine
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -11,14 +11,14 @@ import android.os.Build
 import android.os.PowerManager
 import android.provider.Settings
 import androidx.core.app.NotificationCompat
-import com.example.androidautomate.R
-import com.example.androidautomate.data.RoutineRepository
-import com.example.androidautomate.model.ActionType
-import com.example.androidautomate.model.LogSeverity
-import com.example.androidautomate.model.RingerModeOption
-import com.example.androidautomate.model.Routine
-import com.example.androidautomate.model.RoutineAction
-import com.example.androidautomate.model.TriggerType
+import com.citrusd365.autopulse.R
+import com.citrusd365.autopulse.data.RoutineRepository
+import com.citrusd365.autopulse.model.ActionType
+import com.citrusd365.autopulse.model.LogSeverity
+import com.citrusd365.autopulse.model.RingerModeOption
+import com.citrusd365.autopulse.model.Routine
+import com.citrusd365.autopulse.model.RoutineAction
+import com.citrusd365.autopulse.model.TriggerType
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

@@ -1,4 +1,4 @@
-package com.example.androidautomate.ui
+package com.citrusd365.autopulse.ui
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable
@@ -59,14 +59,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
-import com.example.androidautomate.engine.BluetoothHelper
-import com.example.androidautomate.model.ActionType
-import com.example.androidautomate.model.ChargingSourceOption
-import com.example.androidautomate.model.PairedBluetoothDeviceInfo
-import com.example.androidautomate.model.RingerModeOption
-import com.example.androidautomate.model.Routine
-import com.example.androidautomate.model.RoutineAction
-import com.example.androidautomate.model.TriggerType
+import com.citrusd365.autopulse.engine.BluetoothHelper
+import com.citrusd365.autopulse.model.ActionType
+import com.citrusd365.autopulse.model.ChargingSourceOption
+import com.citrusd365.autopulse.model.PairedBluetoothDeviceInfo
+import com.citrusd365.autopulse.model.RingerModeOption
+import com.citrusd365.autopulse.model.Routine
+import com.citrusd365.autopulse.model.RoutineAction
+import com.citrusd365.autopulse.model.TriggerType
 import kotlin.math.roundToInt
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
