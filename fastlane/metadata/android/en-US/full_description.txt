@@ -1,0 +1,8 @@
+AutoPulse Routines is an open-source, Material 3 event-automation application for Android that lets you automate system actions using a single-card "IF -> THEN -> WHEN ENDED" routine model.
+
+Key Features:
+* Car Bluetooth to Mobile Hotspot Automation: Automatically turn Wi-Fi Hotspot ON when your phone connects to your car's Bluetooth, and turn it OFF when disconnected.
+* Disconnect Grace Period: Configurable countdown delay before running exit actions so brief Bluetooth drops (such as starting the car engine) do not prematurely turn off your Hotspot.
+* Unrooted Stock Android Support: Toggles Mobile Hotspot via an on-device Accessibility Service (Quick Settings tile or Tethering Settings switch) or optional Root shell commands, with state verification so it never blind-toggles.
+* Multiple Triggers & Actions: Supports Bluetooth device connection, any Car/Audio Bluetooth connection, battery charging state, Wi-Fi connection, and low-battery triggers, alongside Hotspot, Wi-Fi, Media Volume, Do Not Disturb, App Launch, and Notification actions.
+* 100% Offline & Private: No internet permission, no analytics, no ads, and no tracking.

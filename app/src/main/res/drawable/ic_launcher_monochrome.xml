@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Monochrome icon for Android 13+ Material You themed icons -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M41.5,34 L41.5,49.8 L33.5,41.8 L31.1,44.2 L40.3,53.4 L31.1,62.6 L33.5,65.0 L41.5,57.0 L41.5,74 L44.6,74 L55.4,63.2 L45.6,53.4 L55.4,43.6 L44.6,34 L41.5,34 Z M44.9,39.2 L50.2,43.9 L44.9,49.2 L44.9,39.2 Z M44.9,57.6 L50.2,62.9 L44.9,67.6 L44.9,57.6 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58.0,53.5m-3.0,0a3.0,3.0 0,1 1,6.0 0a3.0,3.0 0,1 1,-6.0 0" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.1"
+        android:strokeLineCap="round"
+        android:pathData="M64.7,46.8 A9.5,9.5 0 0,1 64.7,60.2" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.1"
+        android:strokeLineCap="round"
+        android:pathData="M69.0,42.5 A15.5,15.5 0 0,1 69.0,64.5" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M73.2,38.3 A21.5,21.5 0 0,1 73.2,68.7" />
+</vector>

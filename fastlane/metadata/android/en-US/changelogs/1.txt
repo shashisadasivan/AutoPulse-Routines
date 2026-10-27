@@ -1,0 +1,5 @@
+Initial release (v1.0.0):
+- Single-card IF -> THEN -> WHEN ENDED routine automation engine.
+- Pre-configured Car Bluetooth -> Mobile Hotspot routine with disconnect grace period.
+- Unrooted Mobile Hotspot toggling via Quick Settings tile and Tethering Settings Accessibility Service, plus optional Root shell mode.
+- Material 3 UI with paired Bluetooth device picker, live Hotspot tester, and execution log.

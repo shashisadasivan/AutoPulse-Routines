@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AutoPulse Routines</string>
+    <string name="accessibility_service_label">AutoPulse Hotspot &amp; Quick Settings Helper</string>
+    <string name="accessibility_service_description">Allows AutoPulse Routines to automatically toggle the Mobile Hotspot Quick Settings tile when your Car Bluetooth connects or disconnects, without requiring root or a PC.</string>
+</resources>

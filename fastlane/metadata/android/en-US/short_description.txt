@@ -1,0 +1,1 @@
+Automate Mobile Hotspot and device settings on Bluetooth and system events
